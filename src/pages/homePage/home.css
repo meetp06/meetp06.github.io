@@ -1,0 +1,47 @@
+.home-container {
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.home-img {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    margin-bottom: 2vh;
+}
+.home-intro {
+    color: #444444;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+.home-name {
+    font-size: calc(1rem + 1vh);
+    margin-bottom: 1vh;
+}
+.home-university {
+    font-size: calc(0.8rem + 1vh);
+    margin-bottom: 1vh;
+}
+.home-address {
+    font-size: calc(0.6rem + 0.9vh);
+    margin-bottom: 1vh;
+}
+.home-icons-wrapper {
+    text-align: center;
+}
+.home-icons {
+    margin: 0 10px;
+    transition: transform 0.3s;
+    padding: 10px;
+}  
+.home-icons:hover {
+    transform: scale(1.2);
+}  
+.custom-image {
+    width: 30px;
+    height: 30px;
+}
