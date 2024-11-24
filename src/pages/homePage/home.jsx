@@ -77,7 +77,7 @@ const Home = () => {
       </div>
       <div className="row">
         <div className="col-12 text-center">
-          <a href="/meet_resume.pdf" className="btn btn-secondary">
+          <a href="/meet_resume_update.pdf" className="btn btn-secondary">
             Download Resume
           </a>
         </div>

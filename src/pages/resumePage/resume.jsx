@@ -59,7 +59,7 @@ const Resume = () => {
     <div className="container my-5 d-block">
       <div className="row">
         <div className="col-12 text-center my-4">
-          <a href="/meet_resume.pdf" className="btn btn-secondary">
+          <a href="/meet_resume_update.pdf" className="btn btn-secondary">
             Download Resume
           </a>
         </div>
